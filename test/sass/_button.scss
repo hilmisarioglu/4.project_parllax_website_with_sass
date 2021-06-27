@@ -1,0 +1,13 @@
+@import "./variables";
+
+.btn{
+    border-radius: 10px;
+    background: $primaryColor;
+    
+    &:hover{
+        background: gray;
+    }
+}
+.extend{
+    @extend .btn;
+}

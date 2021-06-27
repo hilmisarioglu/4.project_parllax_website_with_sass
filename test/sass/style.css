@@ -1,0 +1,32 @@
+.btn, .extend {
+  border-radius: 10px;
+  background: #6554a2;
+}
+
+.btn:hover, .extend:hover {
+  background: gray;
+}
+
+.title h1 {
+  color: blue;
+}
+
+p {
+  color: #6554a2;
+}
+
+.center {
+  height: 50vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: green;
+  margin: 20px;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,27 @@
+@import "./button";
+@import "./variables";
+@mixin flexCenter($background,$margin) {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:$background;
+    margin:$margin
+}
+
+
+.title{
+    h1{
+        color:blue
+    }
+}
+
+p{
+    color:$primaryColor
+}
+
+.center{
+   @include flexCenter(green,20px);
+}
+
+
